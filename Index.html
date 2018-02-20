@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+	<title>The Code Review</title>
+</head>
+<body>
+
+		
+	<h1 class="title">THE CODE REVIEW</h1>
+	<div class="wrapper">
+	<div class="signup">
+		<h3 class="section-title">Signup for our newsletter</h3>
+		<p class="text text-size">Get the latest news how your code is doing right in your inbox</p>
+	</div>
+	
+		<form>
+			<div class="field-1">
+			<fieldset class="fieldset-1">
+			<legend class="section-title">Contact Information</legend>
+
+			<label class="text-size label-width" for="name">Full Name</label>
+			<input type="text" class="text-styles text-width" placeholder="Required" name="info" id="name" required>
+
+			<label class="text-size label-width" for="email">Email Address</label>
+			<input type="email" class="text-styles text-width" placeholder="Required"  name="info" id="email" required>
+		
+			<label  class="text-size label-width" for="phone">Phone Number</label>
+			<input type="tel" class="text-styles text-width"  name="info" id="phone">
+			
+			<label class="text-size label-width"  for="address">Street Address</label>
+			<input type="text" name="info" class="text-styles text-width" id="address">
+
+			<label  class="text-size label-width" for="city">City</label>
+			<input type="text" name="info" class="text-styles text-width" id="city">
+
+			<label class="text-size label-width" for="state">State</label>
+			<select name="text" id="state"  class="text-styles text-width">
+			<option selected disabled>Choose State</option>
+			<option value="Washington">Washington</option>
+			<option value="New York">New York</option>
+			<option value="colorado">Colorado</option>
+			</select><br>
+
+			<label class="text-size label-width" for="zip">Zip Code</label>
+			<input type="text" class="text-styles zip" name="info" id="zip">
+			</fieldset>
+		</div>
+
+		<div class="field-2">
+			<div class="newsletter-section">
+			<fieldset>
+				<legend class="section-title">Newsletter</legend>
+
+				<p class="text-size">Select the newsletters you would like to recive</p>
+				<input type="checkbox" name="newsletter" value="html" id="html">
+				<label class="text-size"  for="html">HTML News</label><br>
+
+				<input type="checkbox" name="newsletter" value="cssNews" id="cssnews">
+				<label class="text-size" for="cssnews">CSS News</label><br>
+ 
+				<input type="checkbox" name="newsletter" value="jsnews"
+				id="jsNews">
+				<label class="text-size" for="jsNews">Javascript News</label>
+			
+				<p class="text-size">Newsletter format</p>
+
+				<input class="text-size" type="radio" name="format" value="htmlF" id="htmlF">
+				<label class="text-size"  for="htmlF">HTML</label><br>
+
+				<input type="radio" name="format" value="plaintext" id="plaintext">
+				<label class="text-size" for="plaintext">Plain text</label><br>
+
+				<label class="text-size" for="message">Other topics you'd like to hear about</label><br>
+				<textarea id="message" name="message"></textarea><br>
+			</fieldset>
+		</div>
+			<button type="submit" value="submit">Sign Up</button>
+		</div>
+			<footer>
+				<p class="text-size">Copyright The Code Review</p>
+			</footer>
+		</form>
+		</div>
+
+</body>
+</html>
